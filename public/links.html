@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Comercial Ferraz | WhatsApp, rota e orçamento</title>
+<meta name="description" content="Troca de óleo sem cobrar mão de obra em Agudos/SP. Chame no WhatsApp, ligue, veja a rota ou peça o orçamento da troca de óleo.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://comercialferraz.vercel.app/links">
+<meta name="theme-color" content="#141516">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Comercial Ferraz | Troca de óleo e mecânica em Agudos/SP">
+<meta property="og:description" content="WhatsApp, telefone, rota e orçamento da troca de óleo.">
+<meta property="og:url" content="https://comercialferraz.vercel.app/links">
+<meta property="og:image" content="https://comercialferraz.vercel.app/img/og.jpg">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<script src="inicio.js?v=1"></script>
+<link rel="preload" href="fonts/overpass-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body class="pagina-links">
+<main class="links">
+  <header class="links-topo placa placa-vermelha">
+    <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="" width="160" height="160"></picture>
+    <div>
+      <h1>Comercial Ferraz</h1>
+      <p>Troca de óleo e mecânica<span>Agudos/SP</span></p>
+    </div>
+  </header>
+
+  <p class="links-status">
+    <span class="status so-js" data-status><span class="status-ponto" aria-hidden="true"></span><span><span data-status-texto></span> <span class="status-detalhe" data-status-detalhe></span></span></span>
+    <span>Seg a sex 8h–18h • Sáb 8h–13h</span>
+  </p>
+
+  <section class="links-oferta placa placa-amarela" aria-labelledby="titulo-oferta">
+    <h2 id="titulo-oferta">Troca de óleo sem pagar mão de obra.</h2>
+    <p>Você paga só os produtos, e dá pra dividir em até 18x.</p>
+    <p class="prova"><span class="estrelas" aria-hidden="true"><svg class="ico"><use href="img/icones.svg#i-estrela"/></svg><svg class="ico"><use href="img/icones.svg#i-estrela"/></svg><svg class="ico"><use href="img/icones.svg#i-estrela"/></svg><svg class="ico"><use href="img/icones.svg#i-estrela"/></svg><svg class="ico"><use href="img/icones.svg#i-estrela"/></svg></span><span>5,0 no Google • 18 avaliações</span></p>
+  </section>
+
+  <nav class="botoes" aria-label="Contato">
+    <a class="btn btn-amarelo" href="https://wa.me/5514988059685?text=Oi!%20Vim%20pelo%20Instagram%20e%20queria%20um%20or%C3%A7amento." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="img/icones.svg#i-whatsapp"/></svg>Chamar no WhatsApp</a>
+
+    <details class="desdobra so-js">
+      <summary class="btn btn-branco"><svg class="ico" aria-hidden="true"><use href="img/icones.svg#p-oleo"/></svg>Orçamento de troca de óleo<svg class="ico seta-abre" aria-hidden="true"><use href="img/icones.svg#i-mais"/></svg></summary>
+      <form class="form-curto" id="form-pedido" data-origem="Instagram" novalidate>
+        <input type="hidden" name="servico" value="troca de óleo">
+        <fieldset class="bloco">
+          <legend>Qual veículo?</legend>
+          <div class="veiculos">
+            <label class="opcao veiculo"><input type="radio" name="veiculo" value="carro"><span class="cara"><svg aria-hidden="true"><use href="img/icones.svg#v-carro"/></svg>Carro</span></label>
+            <label class="opcao veiculo"><input type="radio" name="veiculo" value="caminhonete"><span class="cara"><svg aria-hidden="true"><use href="img/icones.svg#v-caminhonete"/></svg>Caminhonete</span></label>
+            <label class="opcao veiculo"><input type="radio" name="veiculo" value="moto"><span class="cara"><svg aria-hidden="true"><use href="img/icones.svg#v-moto"/></svg>Moto</span></label>
+            <label class="opcao veiculo"><input type="radio" name="veiculo" value="caminhão"><span class="cara"><svg aria-hidden="true"><use href="img/icones.svg#v-caminhao"/></svg>Caminhão</span></label>
+          </div>
+        </fieldset>
+        <div class="bloco campos campos-2">
+          <div class="campo"><label for="modelo">Modelo e ano <small>(opcional)</small></label><input id="modelo" name="modelo" type="text" maxlength="60" placeholder="ex.: Gol 1.0 2014" autocomplete="off"></div>
+          <div class="campo"><label for="km">Km atual <small>(opcional)</small></label><input id="km" name="km" type="text" inputmode="numeric" maxlength="9" placeholder="ex.: 85.000" autocomplete="off"></div>
+        </div>
+        <fieldset class="bloco">
+          <legend>Trocar algum filtro junto? <small>(opcional)</small></legend>
+          <div class="chips">
+            <label class="opcao chip"><input type="checkbox" name="filtro" value="filtro de óleo"><span>Filtro de óleo</span></label>
+            <label class="opcao chip"><input type="checkbox" name="filtro" value="filtro de ar"><span>Filtro de ar</span></label>
+            <label class="opcao chip"><input type="checkbox" name="filtro" value="filtro de combustível"><span>Combustível</span></label>
+            <label class="opcao chip"><input type="checkbox" name="filtro" value="filtro de cabine"><span>Cabine</span></label>
+            <label class="opcao chip"><input type="checkbox" name="filtro" value="não sei"><span>Não sei</span></label>
+          </div>
+        </fieldset>
+        <div class="painel placa placa-preta">
+          <p class="painel-titulo"><span>Sua mensagem</span></p>
+          <ol id="previa" aria-live="polite"><li class="vazio">Escolha o veículo. A mensagem aparece aqui.</li></ol>
+        </div>
+        <div class="enviar"><a class="btn btn-amarelo" id="enviar" href="https://wa.me/5514988059685?text=Oi!%20Vim%20pelo%20Instagram%20e%20queria%20um%20or%C3%A7amento." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="img/icones.svg#i-whatsapp"/></svg><span data-rotulo>Enviar pelo WhatsApp</span></a></div>
+      </form>
+    </details>
+
+    <a class="btn btn-claro" href="tel:+551432613023"><svg class="ico" aria-hidden="true"><use href="img/icones.svg#i-telefone"/></svg>Ligar<small>(14) 3261-3023</small></a>
+    <a class="btn btn-claro" href="https://www.google.com/maps/dir/?api=1&amp;destination=-22.4676641%2C-48.9892669&amp;destination_place_id=ChIJ54E0mByhwJQRhd1zRsOBvwE" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="img/icones.svg#i-rota"/></svg>Como chegar<small>Rota no Maps</small></a>
+    <a class="btn btn-claro" href="https://www.instagram.com/comercialferraz_/" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="img/icones.svg#i-instagram"/></svg>Instagram<small>@comercialferraz_</small></a>
+    <a class="btn btn-claro" href="./"><svg class="ico" aria-hidden="true"><use href="img/icones.svg#i-site"/></svg>Site completo<small>Serviços e avaliações</small></a>
+  </nav>
+
+  <footer class="links-rodape">
+    <p>Av. Fernando Machado, 13 • Centro • Agudos/SP<br>Em frente ao posto Lubrax</p>
+    <p><a href="privacidade">Privacidade</a></p>
+  </footer>
+</main>
+<script src="pedido.js?v=1"></script>
+<script src="pagina.js?v=1"></script>
+</body>
+</html>

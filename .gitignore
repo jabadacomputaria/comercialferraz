@@ -1,0 +1,21 @@
+# Notas internas para o dono (não publicar)
+PENDENCIAS.md
+
+# Segredos e variáveis de ambiente (nunca subir)
+.env
+.env.*
+*.pem
+*.key
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+__pycache__/
+
+# Vercel/Netlify CLI e dependências
+.vercel/
+.netlify/
+node_modules/

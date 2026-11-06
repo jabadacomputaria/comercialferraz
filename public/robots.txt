@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /links
+
+Sitemap: https://comercialferraz.vercel.app/sitemap.xml

@@ -1,0 +1,10 @@
+Fonte deste site, hospedada localmente:
+
+- Overpass, de Delve Withrington, Dave Bailey e Thomas Jockin (Red Hat). Licença SIL Open Font License 1.1.
+  Releitura aberta da Highway Gothic, a letra das placas de estrada.
+
+Texto da licença: https://openfontlicense.org/open-font-license-official-text/
+Arquivos obtidos do Google Fonts (fonts.google.com) em 06/11/2026.
+
+Ícones (img/icones.svg): pictogramas de serviço e de veículo desenhados para este site.
+Ícones de interface derivados do Lucide (licença ISC, lucide.dev). Marca do WhatsApp do Simple Icons (CC0).
